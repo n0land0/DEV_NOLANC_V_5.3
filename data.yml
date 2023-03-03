@@ -1,4 +1,4 @@
-defaultStorageMapping: null
+defaultStorageMapping: OAR_NOAR
 jobs: {}
 locations:
   HENLO:
@@ -6,6 +6,11 @@ locations:
       "4":
         database: DEV_NOLANC_V_5_3
         schema: DEV_RAW
+  OAR_NOAR:
+    mappingDefinitions:
+      "4":
+        database: ""
+        schema: ""
   SRC:
     mappingDefinitions:
       "4":
